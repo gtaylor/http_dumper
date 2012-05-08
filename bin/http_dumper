@@ -8,6 +8,6 @@ from http_dumper import wsgi
 
 # Fire up a bottle+gevent process.
 run(
-    host='localhost',
+    host='0.0.0.0',
     port=8000,
 )
