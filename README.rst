@@ -11,6 +11,8 @@ Pull requests are accepted and encouraged.
 Installation and Usage
 ----------------------
 
+Install and run::
+
     $ pip install http_dumper
     $ http_dumper
 
