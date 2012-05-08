@@ -1,14 +1,13 @@
 #!/usr/bin/env python
+"""
+Get the party started in this module.
+"""
 from bottle import run
+#noinspection PyUnresolvedReferences
 from http_dumper import wsgi
 
 # Fire up a bottle+gevent process.
 run(
     host='localhost',
-    server='gevent',
     port=8000,
-    # Do gevent's standard monkey patching.
-    monkey=True,
-    # Use libevent HTTP server.
-    fast=True
 )

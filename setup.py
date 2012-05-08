@@ -7,7 +7,6 @@ import http_dumper
 
 required = [
     'bottle',
-    'gevent',
 ]
 
 packages = [
